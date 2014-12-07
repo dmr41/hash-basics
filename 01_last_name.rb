@@ -13,3 +13,5 @@ bjorn_borg = {
 }
 
 # Print Bjorn's last name
+
+puts bjorn_borg["last_name"]

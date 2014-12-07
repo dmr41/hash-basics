@@ -13,3 +13,4 @@ bjorn_borg = {
 }
 
 # Print the string "Hello, nice to meet you Bjorn Borg."
+puts "Hello, nice to meet you #{bjorn_borg["first_name"]} #{bjorn_borg["last_name"]}."

@@ -13,3 +13,6 @@ bjorn_borg = {
 }
 
 # Print Bjorn's address. It should read "444 Borg Lane, San Francisco, CA, 94104"
+
+puts "#{bjorn_borg["address"]["street"]}, #{bjorn_borg["address"]["city"]},\
+#{bjorn_borg["address"]["state"]}, #{bjorn_borg["address"]["zip_code"]}"

@@ -13,3 +13,8 @@ bjorn_borg = {
 }
 
 # Add a nickname to the BJORN_BORG hash and print it out. Don't edit anything above this line!
+
+bjorn_borg["nickname"] = "B.J."
+puts bjorn_borg
+puts "------"
+puts bjorn_borg["nickname"]

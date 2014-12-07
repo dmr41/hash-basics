@@ -14,4 +14,5 @@ bjorn_borg = {
 
 # Print Bjorn's first name
 
-puts bjorn_borg[:first_name]
+puts bjorn_borg["first_name"]
+puts bjorn_borgfirst_name

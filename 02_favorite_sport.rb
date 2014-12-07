@@ -13,3 +13,5 @@ bjorn_borg = {
 }
 
 # Print Bjorn's favorite sport
+
+puts "Bjorn's favorite sport is #{bjorn_borg["favorite_sport"]}"

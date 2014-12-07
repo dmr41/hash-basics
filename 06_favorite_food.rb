@@ -16,3 +16,6 @@ bjorn_borg = {
 #
 # Expected output:
 #   Bjorn's favorite foods are sushi, hamburgers, and mexican food.
+
+puts "Bjorn's favorite foods are #{bjorn_borg["favorite_foods"][0]},\
+ #{bjorn_borg["favorite_foods"][1]}, and #{bjorn_borg["favorite_foods"][2]}."

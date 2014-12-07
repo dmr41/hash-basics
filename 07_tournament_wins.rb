@@ -21,3 +21,9 @@ wins = {
 # Add Bjorn's tournament wins to the bjorn_borg hash. Don't edit anything above this line
 #
 # After you add the tournament data, print out the first and last year that Bjorn Borg won Wimbledon.
+
+bjorn_borg["tournament_wins"] = wins[:tournament_wins]
+
+puts bjorn_borg
+puts "The first Year Bjorn won Wimbeldon was #{bjorn_borg["tournament_wins"][:wimbledon][0]}."
+puts "The last Year Bjorn won Wimbeldon was #{bjorn_borg["tournament_wins"][:wimbledon][-1]}."
