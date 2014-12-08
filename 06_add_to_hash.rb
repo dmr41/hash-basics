@@ -13,7 +13,7 @@ person = {
 }
 
 # Without changing anything above this line, add a nickname to the person hash
-#
+
 # Expected output
 #
 #   "BB"
