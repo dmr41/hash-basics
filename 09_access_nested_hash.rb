@@ -24,3 +24,6 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+person["address"]["coordinates"].each do |position, coord|
+  p "#{coord}"
+end

@@ -13,3 +13,5 @@ person = {
 #   "hamburgers"
 #
 #------- your code below here ---------
+
+p person["favorite_foods"][1]
